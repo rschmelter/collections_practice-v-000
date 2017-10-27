@@ -48,5 +48,5 @@ def add_s(array)
     new_array << word + "s"
   end
   end
-  array
+  new_array
 end
