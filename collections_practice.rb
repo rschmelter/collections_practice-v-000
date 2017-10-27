@@ -20,3 +20,11 @@ end
 def reverse_array(array)
   array.reverse
 end
+
+def kesha_maker(array)
+  kesha = []
+  array.each do |names|
+    names[2] = $
+    kesha << names
+  end
+end
