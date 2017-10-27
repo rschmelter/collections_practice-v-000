@@ -34,9 +34,3 @@ def find_a(array)
     words.start_with?("a")
   end
 end
-
-
-
-
-
-
