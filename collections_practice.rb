@@ -28,3 +28,15 @@ def kesha_maker(array)
     kesha << names
   end
 end
+
+def find_a(array)
+  array.select do |words|
+    words.start_with?("a")
+  end
+end
+
+
+
+
+
+
