@@ -34,3 +34,10 @@ def find_a(array)
     words.start_with?("a")
   end
 end
+
+def add_s(array)
+  array.inject do |sum, add|
+    sum + add
+  end
+end
+
