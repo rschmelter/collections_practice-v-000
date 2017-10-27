@@ -43,6 +43,8 @@ end
 
 def add_s(array)
   array.collect do |word|
-    word + "s"
+    word + "s" unless word[2]
+      
+    end
   end
 end
