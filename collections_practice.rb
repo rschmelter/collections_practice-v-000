@@ -40,4 +40,3 @@ def add_s(array)
     sum + add
   end
 end
-
